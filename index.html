@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Learning Center OS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- GOOGLE STYLE HOME -->
+<div id="homeScreen">
+  <div id="logo">Learning Center</div>
+  <input id="search" placeholder="Search Google..." />
+  <button onclick="search()">Search</button>
+
+  <div id="homeButtons">
+    <button onclick="openTab('Apps')">Apps</button>
+    <button onclick="openTab('Games')">Games</button>
+    <button onclick="openTab('Music')">Music</button>
+    <button onclick="openTab('Messages')">Messages</button>
+  </div>
+</div>
+
+<!-- TABS AREA -->
+<div id="tabs"></div>
+
+<!-- OWNER PANEL -->
+<div id="ownerPanel">
+  <h3>Owner Panel</h3>
+
+  <button onclick="addApp()">Add App</button>
+  <button onclick="deleteApp()">Delete App</button>
+  <button onclick="sendAnnouncement()">Announcement</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
