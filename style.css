@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: white;
+}
+
+/* GOOGLE STYLE HOME */
+#homeScreen {
+  text-align: center;
+  margin-top: 120px;
+}
+
+#logo {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+#search {
+  width: 60%;
+  padding: 12px;
+  border-radius: 20px;
+  border: 1px solid gray;
+}
+
+/* BUTTONS */
+#homeButtons button {
+  margin: 10px;
+  padding: 10px;
+}
+
+/* TABS */
+.tab {
+  display: none;
+  padding: 20px;
+}
+
+/* OWNER PANEL (SIDE SLIDE) */
+#ownerPanel {
+  position: fixed;
+  right: -300px;
+  top: 0;
+  width: 300px;
+  height: 100%;
+  background: #222;
+  color: white;
+  transition: 0.3s;
+  padding: 20px;
+}
